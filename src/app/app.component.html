@@ -7,11 +7,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">{{title}}</a>
+      <a class="navbar-brand" href="#">
+        <span class="hidden-xs">{{title}}</span>
+        <span class="hidden-sm hidden-md hidden-lg">{{shortTitle}}</span>
+      </a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav pull-right">
         <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Beer</a></li>
+        <li><a href="#">About</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
