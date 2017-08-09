@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'hsbc-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <site-nav></site-nav>
+    <router-outlet></router-outlet>
+  `
 })
 export class AppComponent {
-  title = 'Homeschool Science Brewing Co.';
-  shortTitle = 'HSBC';
+
 }
